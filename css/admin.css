@@ -1,0 +1,50 @@
+.wrap {
+    max-width: 900px;
+}
+
+.boonband-rules-wrapper {
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 1rem;
+}
+
+.boonband-rule-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.boonband-rule-row:last-child {
+    margin-bottom: 0;
+}
+
+.boonband-handle {
+    cursor: move;
+    margin-right: 1rem;
+}
+
+input[type="text"],
+select {
+    margin-right: 1rem;
+}
+
+button.boonband-delete-rule {
+    background-color: #f44336;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button.boonband-delete-rule:hover {
+    background-color: #e53935;
+}
+
+.button.button-primary{
+    margin-bottom: 20px;
+}
+
+.boonband-rule-row > *{
+    flex: 1;
+}
